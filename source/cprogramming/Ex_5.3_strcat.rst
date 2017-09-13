@@ -36,7 +36,7 @@ again.
    {
 	   while(*s!='\0')
 	       s++;
-	   s--; 		     /* goes back to \0 char */
+	   //s--; 		     /* no need of s-- ,since already pointing to \0 char */
 	   while((*s=*t)!='\0')
 	   {	
 	      s++;
